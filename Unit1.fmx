@@ -1,0 +1,1273 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 540
+  ClientWidth = 960
+  Position = OwnerFormCenter
+  Transparency = True
+  FormStyle = StayOnTop
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    Left = 240
+    Top = 408
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = xFFC3C3C3
+    HitTest = False
+    Position.X = 408.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 172.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDimgray
+    Stroke.Thickness = 0.000000000000000000
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = []
+      Size.Width = 172.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '-00:00.000'
+      TabOrder = 0
+    end
+  end
+  object Layout1: TLayout
+    Position.X = 704.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 490.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout2: TLayout
+      Align = Top
+      Margins.Top = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      object Rectangle4: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label3: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle2: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label2: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle18: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label6: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      object Rectangle3: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label4: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle5: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label5: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle19: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label7: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout6: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 232.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      object Rectangle6: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label10: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle17: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label11: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle25: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label25: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout7: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 200.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object Rectangle7: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label12: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle16: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label13: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle24: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label24: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout8: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Rectangle8: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label14: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle15: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label15: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle23: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label23: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout9: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 136.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Rectangle9: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label16: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle14: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label17: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle22: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label22: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout10: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle13: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label19: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle10: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label18: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle21: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label9: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout11: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle11: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label20: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle12: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label21: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle20: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label8: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      object Rectangle26: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label27: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle27: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label28: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle28: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label29: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 296.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      object Rectangle29: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label30: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle30: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label31: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle31: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label32: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout12: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 328.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      object Rectangle32: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label33: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle33: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label34: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle34: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label35: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout13: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      object Rectangle35: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label36: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle36: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label37: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle37: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label38: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout14: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 392.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object Rectangle38: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label39: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle39: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label40: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle40: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label41: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout15: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 424.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      object Rectangle41: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label42: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle42: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label43: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle43: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label44: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout16: TLayout
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      Position.Y = 456.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object Rectangle44: TRectangle
+        Align = Client
+        Fill.Color = xFFC3C3C3
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDimgray
+        Stroke.Thickness = 0.000000000000000000
+        object Label45: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 80.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '-0.00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle45: TRectangle
+        Align = Right
+        Fill.Color = x50000000
+        HitTest = False
+        Position.X = 130.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label46: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 100.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '00:00.000'
+          TabOrder = 0
+        end
+      end
+      object Rectangle46: TRectangle
+        Align = Left
+        Fill.Color = x50000000
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        object Label47: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 50.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '--'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object Label26: TLabel
+    StyledSettings = []
+    Position.X = 64.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 121.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Hurme Geometric Sans 3'
+    TextSettings.Font.Size = 32.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claDeeppink
+    Text = 'Label26'
+    Visible = False
+    TabOrder = 4
+  end
+end
